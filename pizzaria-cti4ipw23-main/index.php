@@ -11,19 +11,39 @@
     <title>Pizzaria Sua Fome Minha Alegria</title>
   </head>
   <body>
-    <header class="d-flex">
-      <div class="container d-flex justify-content-between">
+    <header class="text-white d-flex">
+      <div class="container d-flex justify-content-between align-items-center">
 		<img src="img/logo.png" alt="Logo Pizzaria" />
+
     </div>
     <nav>
-      <ul class="menu">
-        <li><a haref="#">Home</a></li>
-        <li><a haref="#">Sobre</a></li>
-        <li><a haref="#">Cardápio</a></li>
-        <li><a haref="#">Contato</a></li>
+      <ul class="menu list-inline">
+        <li class="menu list-inline-item"><a haref="#">Home</a></li>
+        <li class="menu list-inline-item"><a haref="#">Sobre</a></li>
+        <li class="menu list-inline-item"><a haref="#">Cardápio</a></li>
+        <li class="menu list-inline-item"><a haref="#">Contato</a></li>
       </ul>
     </nav>
 	</header>
+  <section class="container">
+      <div class="row">
+        <nav class="col-md-2">
+          <ul class="list-unstyled">
+          <li><a haref="#">Home</a></li>
+          <li><a haref="q1.html">Questão 1</a></li>
+          <li><a haref="q2.html">Questão 2</a></li>
+          <li><a haref="q3.html">Questão 3</a></li> 
+          <li><a haref="q4.html">Questão 4</a></li>   
+          </ul>
+        </nav>
+        <main class="col-md-9">
+          <h1>Home</h1>
+          <p>
+            ipsum
+          </p>
+        </main>
+      </div>
+  </section>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
